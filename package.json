@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "serve src",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "serve": "^13.0.2"
+    "livereload": "^0.9.3",
+    "nodemon": "^2.0.15"
   }
 }
